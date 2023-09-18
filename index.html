@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Code Quiz | FUN </title>
+        <link rel="stylesheet" href="./coding-quiz/assets/style.css">
+    </head>
+<!--welcome to the quiz page -->
+    <body> 
+        <header>
+            <h2 id="view-highscores">View Highscores</h2>
+            <h2 class="timer"><span id="timer"></span></h2>
+        </header>
+         <section id="start-container" class="show">
+            <div class="container start">
+                <h1>Coding Quiz</h1>
+                <p>Try to answer the following code-related questions within the time limit. Correct answers are worth 5 points!
+                    Keep in mind that incorrect answers will penalize your score by 2 points and your time by 5 seconds!</p>
+                    <button class="startBtn" id="start-game">Start Quiz</button>
+            </div>
+         </section>
+<!--section for questions-->
+         <section id="questions" class="hide">
+         <div class="container questions">
+            <div id="question"></div>
+            <div id="answerBtns" class="question-grid"></div>
+         </div>
+         </section>
+
+         <div class="hide" id="correct">
+            <h2>Correct!</h2>
+        </div>
+        <div class="hide" id="wrong">
+            <h2>Incorrect! </h2>
+        </div>
+<!--section for filling out initials form-->
+         <section id="form-container" class="hide">
+         <div class="container end">
+            <div id=score>
+                <h1>finished!</h1>
+            </div>  
+            <form id="initials-form" class="initials">
+              <p> Enter Initials:
+                <input type="text" name="initials" id="initials" class="text-input" />
+                <button class="btn finalpage" id="sumbit-score" type="submit">Submit</button> </p>
+              </form>
+            </div>
+            </section>
+            <!--highscore list-->
+            <section id="score-container" class="hide">
+                <div class="scores">
+                  <h1 class="high-score">High Scores</h1>
+                  <ol id="high-score-list" class="score-list"></ol>
+              <div>
+                  <button class="btn" id="go-back">Go back</button>
+                  <button class="btn" id="clear-scores">Clear high scores</button>
+              </div>
+              </div>
+            </section>
+            <script src="./coding-quiz/assets/js.js"></script> 
+        </body>
+        </html>
