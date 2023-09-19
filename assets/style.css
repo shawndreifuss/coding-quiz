@@ -1,4 +1,12 @@
+body {
+    background-color: bisque;
+}
+
+
+
 /* Header */
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -67,6 +75,9 @@ h1 p {
 
 #question {
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .end input {
@@ -121,3 +132,14 @@ li {
     font-size: 50px
 }
 
+button {
+    height: 50px;
+    width:200px;
+    background-color: cadetblue;
+}
+
+.question-grid {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
