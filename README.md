@@ -4,7 +4,7 @@
 
 ## Description
  
- To create a a short quiz using javascript with a leaderboard of highscores that pulls from local store, a timer that counts down as you start the game and a score at the end! during this homework i learned so much and furthered my knowledge on JS, by using functions for loops and addevent listeners i was able to creat my mini coding quiz! 
+ To create a a short quiz using javascript with a leaderboard of highscores that pulls from local store, a timer that counts down as you start the game and a score at the end! during this homework i learned so much and furthered my knowledge on JS with help of my tutor, by using functions for loops and addevent listeners i was able to creat my mini coding quiz! 
 
 
 
